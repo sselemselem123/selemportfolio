@@ -1,0 +1,79 @@
+.body{
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+        top: 0;
+}
+.name{
+    transition: all 0.5s;
+    -webkit-text-stroke: 4px #d6f4f4;
+    font-variation-settings: "wght" 900,"ital" 1;
+    font-size: 2rem;
+    
+    color: transparent;
+    font-family: "meta",sans-serif;
+    text-shadow: 10px 10px 0px #07bccc,
+    15px 15px 0px #e601c0,
+    20px 20px 0px #f40468,
+    45px 45px 10px #482896;
+    cursor: pointer;
+}
+.name:hover{
+-webkit-text-stroke: 3px #d6f4f4;
+font-variation-settings: "wght" 100,"ital" 0;
+text-shadow: none;
+}
+.left{
+    flex: 1;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    gap: 2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.right{
+   flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 400;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-right: 380px;
+}
+.list{
+    flex: 10; 
+}
+
+.list>ul{
+    font-size: 2rem;
+    display: flex;
+    gap: 2rem;
+    margin-left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    
+
+}
+
+.list>ul>li:hover{
+    cursor: pointer;
+    color: var(--orange);
+}
+.button {
+    flex: 2;
+    font-size: 2rem;
+    font-weight:bold;
+    transition: 0.3s ease-in-out;
+    width: 25rem;
+  }
+.button:hover{
+    cursor: pointer;
+    background: white;
+    color: var(--orange);
+    border: 1px solid var(--black);
+    transition: 0.5s ease-in-out;
+}
